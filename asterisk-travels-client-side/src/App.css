@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.banner-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url('https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.agency-name{
+  font-size: 100px;
+}
+.login-container{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container img{
+  width: 25px;
+}
+
+.content.blue{
+  background-color: #282433;
+  color: #fff;
+  background: url('https://pitch-tents.co.uk/wp-content/themes/pitchtents/dist/images/cta-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sidebar{
+  background-color: rgb(200, 222, 243);
+}
+.package-form{
+  display: flex;
+  flex-direction: column;
+}
+.text-green {
+  color: green !important;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.social-media img{
+  margin-left: 4px;
+  width: 40px;
+}
